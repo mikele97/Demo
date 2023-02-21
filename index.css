@@ -1,0 +1,306 @@
+html,body{
+    font-family: 'Mulish', sans-serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section_padding{
+
+}
+
+/* header */
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    padding: 20px 40px;
+}
+
+.header_content ul{
+    margin-bottom: 0;
+}
+
+.header_menu li{
+    display: inline;
+    list-style: none;
+    cursor: pointer;
+    padding-left: 20px;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.header_menu li a{
+    color: gray;
+}
+
+.header_menu li a:hover{
+    color:#2E4E92;
+}
+
+.header_logo a{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color:#462E6A;
+    ;
+}
+
+
+/* vituralHealthcare */
+
+
+.vituralHealthcare{
+    margin: 20px;
+}
+.vituralHealthcare_content{
+    display: flex;
+    padding: 20px 40px;
+}
+
+.vituralHealthcare_content .left_content{
+    width: 50%;
+    margin: 20px ;
+    padding-top: 20px;
+}
+
+.vituralHealthcare_content .right_content{
+    width: 50%;
+}
+
+.vituralHealthcare_content .right_content img{
+    width: 100%;
+}
+
+.vituralHealthcare_content .left_content h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #3C567B;
+    line-height: 56px;
+    margin-bottom: 27px;
+}
+
+.vituralHealthcare_content .left_content p{
+    color: #93C1F9;
+    padding-right: 20px;
+    margin-bottom: 50px;
+}
+
+.vituralHealthcare_content button{
+    width: 150px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 55px;
+    color: white;
+    background-color: #458FF6;
+    margin-left: 20px;
+}
+
+/* Service */
+
+.service_title h2{
+    text-align: center;
+    color: #462E6A;
+    font-size: 45px;
+    font-weight:700;
+    line-height: 56px;
+}
+
+.service_title p{
+    color: gray;
+    text-align: center;
+}
+
+.service_info{
+    margin-top: 100px ;
+}
+
+.service_items{
+    margin: 10px;
+}
+.service_items .items_title h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+.service_items .items_content p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.services button{
+    width: 150px;
+    height: 50px;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    color: #458FF6;
+    background-color: white;
+    margin-left: 20px;
+    text-align: center;
+}
+
+/* Leading healthcare provider */
+.healthcareprovider{
+    margin: 20px;
+}
+.healthcareprovider_content{
+    display: flex;
+    padding: 20px 70px;
+}
+
+.healthcareprovider_content .left_content{
+    width: 40%;
+    margin: 25px 25px 0 95px;
+    padding-top: 20px;
+}
+
+.healthcareprovider_content .right_content{
+    width: 60%;
+}
+
+.healthcareprovider_content .right_content img{
+    width: 100%;
+}
+
+.healthcareprovider_content .left_content h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #462E6A;
+    line-height: 56px;
+    margin-bottom: 60px;
+
+}
+
+.healthcareprovider_content .left_content p{
+    color:#7D7987;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+
+}
+
+.healthcareprovider_content button{
+    width: 200px;
+    height: 56px;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    color: #458FF6;
+    background-color: white;
+    text-align: center;
+}
+
+/* Mobile app */
+.mobileapp{
+    margin: 20px;
+}
+.mobileapp_content{
+    display: flex;
+    padding: 20px 120px;
+}
+
+.mobileapp_content .right_content{
+    width: 50%;
+    margin: 25px ;
+    padding-top: 20px;
+}
+
+.mobileapp_content .left_content{
+    width: 50%;
+}
+
+.mobileapp_content .left_content img{
+    width: 100%;
+}
+
+.mobileapp_content .right_content h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #462E6A;
+    line-height: 56px;
+    margin-bottom: 50px;
+
+}
+
+.mobileapp_content .right_content p{
+    color:#7D7987;
+    padding-right: 175px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+
+}
+
+.mobileapp_content button{
+    width: 150px;
+    height: 50px;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    color: #458FF6;
+    background-color: white;
+    text-align: center;
+}
+
+/* Find a doctor */
+
+.finddoctor{
+    margin: 20px;
+}
+.finddoctor_content{
+    display: flex;
+    padding: 20px 70px;
+}
+
+.finddoctor_content .right_content{
+    width: 45%;
+    margin: 25px 25px 0 300px;
+    padding-top: 20px;
+}
+
+.finddoctor_content .left_content{
+    width: 55%;
+}
+
+.finddoctor_content .left_content img{
+    width: 100%;
+    margin-left: 40px;
+}
+
+.finddoctor_content .right_content h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #462E6A;
+    line-height: 56px;
+    margin-bottom: 50px;
+
+}
+
+.finddoctor_content .right_content p{
+    color:#7D7987;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+
+}
+
+.finddoctor_content button{
+    width: 150px;
+    height: 50px;
+    border: 1px solid #458FF6;
+    border-radius: 55px;
+    color: #458FF6;
+    background-color: white;
+    text-align: center;
+}
